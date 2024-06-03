@@ -46,6 +46,7 @@ const skillsSection = {
     emoji("⚡ Conduct quality assurance and testing to ensure seamless migrations and data integrity"),
     emoji("⚡ Optimize backend systems and improve data handling efficiency using SQL and C#")
   ],
+  
   softwareSkills: [
     { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
     { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
@@ -59,7 +60,7 @@ const skillsSection = {
     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
     { skillName: "C#", fontAwesomeClassname: "fab fa-microsoft" }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -83,16 +84,6 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-const techStack = {
-  viewSkillBars: true, // Set it to true to show Proficiency Section
-  experience: [
-    { Stack: "Frontend/Design", progressPercentage: "60%" },
-    { Stack: "Backend", progressPercentage: "85%" },
-    { Stack: "Programming", progressPercentage: "75%" }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section, defaults to false
-};
 
 // Work experience section
 const workExperiences = {
@@ -182,7 +173,6 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   openSource,
   bigProjects,
