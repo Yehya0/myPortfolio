@@ -6,6 +6,7 @@ import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Education from "./education/Education";
+import Interests from "./interest/Interest";
 import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
@@ -47,6 +48,7 @@ const Main = () => {
             <Greeting />
             <Skills />
             <Education />
+            <Interests /> 
             <WorkExperience />
             <Projects />
             <StartupProject />
@@ -57,6 +59,7 @@ const Main = () => {
       </StyleProvider>
     </div>
   );
+  
 };
 
 export default Main;

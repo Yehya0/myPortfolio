@@ -63,6 +63,24 @@ const skillsSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+// Interests Section
+const interestsInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  interests: [
+    {
+      title: "Mixed Martial Arts (MMA)",
+      imagePath: require("./assets/gifs/export_1717456704607.gif"), // Ensure you have an image in your assets folder
+      description: "I engage in regular MMA sparring sessions to improve my physical fitness and tactical skills.",
+      descBullets: [
+        "Participate in weekly sparring sessions at a local gym.",
+        "Focused training in Brazilian Jiu-Jitsu and Muay Thai.",
+        "Competed in amateur MMA competitions."
+      ]
+    },
+    // You can add more interests here
+  ]
+};
+
 // Education Section
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
@@ -178,5 +196,6 @@ export {
   bigProjects,
   contactInfo,
   isHireable,
-  resumeSection
+  resumeSection,
+  interestsInfo
 };
