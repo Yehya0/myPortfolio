@@ -3,7 +3,7 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  width: 350px;
 }
 .card-title {
   color: $titleColor;
@@ -66,18 +66,18 @@
 
 .project-card-footer span.project-tag {
   background: $buttonColor;
-  color: $lightBackground3;
+  color: $textColor; // Updated text color
   vertical-align: middle;
   align-items: center;
   border-radius: 4px;
   display: inline-flex;
-  font-size: 0.75rem;
-  height: 2em;
+  font-size: 1rem; // Increased font size
+  height: 2.5em; // Increased height
   justify-content: center;
   white-space: nowrap;
   line-height: 1.5;
   margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  padding: 0 1em; // Increased padding
   cursor: pointer;
   transition: 0.2s ease-in;
 }

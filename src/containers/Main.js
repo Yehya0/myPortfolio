@@ -48,10 +48,9 @@ const Main = () => {
             <Greeting />
             <Skills />
             <Education />
-            <Interests /> 
             <WorkExperience />
-            <Projects />
             <StartupProject />
+            <Interests /> 
             <Profile />
             <ScrollToTopButton />
           </>

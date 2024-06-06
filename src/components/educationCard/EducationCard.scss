@@ -3,6 +3,7 @@
 .education-card {
   display: flex;
   flex-direction: row;
+  padding: 20px; /* Added padding for more space inside the card */
 }
 
 .education-card:hover + .education-card-border {
@@ -15,10 +16,10 @@
 }
 
 .education-card-border {
-  height: 30px;
-  width: 80%;
+  height: 40px; /* Increased height */
+  width: 90%; /* Increased width */
   border-top: 2px solid $lightBorder1;
-  margin-bottom: 20px;
+  margin-bottom: 30px; /* Increased margin */
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;
   -o-transition: width 0.6s ease-in-out;
@@ -28,54 +29,74 @@
 .education-head {
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
 }
 
 .education-text-school {
   margin: 0;
-  font-size: 28px;
+  font-size: 40px; /* Increased font size */
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  height: 27px;
+  height: 35px; /* Adjusted height */
+  margin-bottom: 30px;
 }
 
 .education-roundedimg {
   object-fit: cover;
   margin-right: 2rem;
-  width: 6rem;
-  height: 6rem;
+  width: 8rem; /* Increased size */
+  height: 8rem; /* Increased size */
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
 
 .education-card-right {
-  max-width: 70%;
+  max-width: 80%; /* Increased width */
 }
 
 .education-text-subHeader {
   color: $textColor;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 30px; /* Increased font size */
   margin: 0px;
-  padding-top: 0.8rem;
+  padding-top: 1rem; /* Adjusted padding */
   line-height: normal;
+  margin-bottom: 30px;
 }
 
 .education-text-duration {
   color: $titleColor;
-  font-size: 19px;
+  font-size: 28px; /* Increased font size */
   margin: 0px;
-  padding-top: 0.5rem;
+  padding-top: 0.8rem; /* Adjusted padding */
+  margin-bottom: 30px; /* Added margin-bottom for spacing */
+  padding-bottom: 40;
 }
 
 .education-text-desc {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1rem; /* Adjusted margin */
+  margin-bottom: 1rem; /* Adjusted margin */
+  font-size: 28px; /* Increased font size */
 }
 
 .education-text-bullets > ul {
-  margin-top: 0.5rem;
+  margin-top: 2rem; /* Adjusted margin to add space between date and bullets */
+  font-size: 28px; /* Increased font size */
+  padding-left: 20px; /* Added padding for more room */
+  margin-bottom: 30px;
+}
+
+.education-text-bullets li {
+  padding-bottom: 30px; /* Adds padding between bullet points */
+}
+
+.education-text-school,
+.education-text-subHeader,
+.education-text-duration,
+.education-text-desc {
+  margin-bottom: 20px; /* Added margin to create space between these elements */
 }
 
 /* Media Query */
@@ -83,7 +104,7 @@
 @media (max-width: 1380px) {
   .education-card {
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 20px; /* Adjusted padding */
   }
   .education-card-right {
     max-width: 90%;
@@ -92,20 +113,21 @@
     width: 90%;
   }
   .education-text-subHeader {
-    padding-top: 0.5rem;
-    font-size: 16px;
+    padding-top: 0.8rem;
+    font-size: 24px; /* Adjusted font size */
   }
   .education-text-school {
-    font-size: 20px;
-    height: 23px;
+    font-size: 28px; /* Adjusted font size */
+    height: 30px; /* Adjusted height */
   }
   .education-text-duration {
-    font-size: 16px;
+    font-size: 24px; /* Adjusted font size */
+    margin-bottom: 20px; /* Added margin-bottom for spacing */
   }
   .education-roundedimg {
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 0.5rem;
+    width: 6rem; /* Adjusted size */
+    height: 6rem; /* Adjusted size */
+    margin-bottom: 0.8rem; /* Adjusted margin */
     margin-right: 0px;
   }
 }
@@ -122,13 +144,14 @@
   }
   .education-roundedimg {
     margin-top: 10px;
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 1rem;
+    width: 5rem; /* Adjusted size */
+    height: 5rem; /* Adjusted size */
+    margin-bottom: 1.2rem; /* Adjusted margin */
     margin-right: 0;
   }
   .education-text-bullets > ul {
     max-width: 80%;
     margin: auto;
+    font-size: 32px; /* Increased font size for smaller screens */
   }
 }

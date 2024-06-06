@@ -16,7 +16,6 @@ export default function InterestCard({ interest }) {
         {/* Text Container */}
         <div className={`interest-card-text ${isDark ? "dark-mode" : ""}`}>
           <h5 className="interest-text-title">{interest.title}</h5>
-          <p className="interest-text-desc">{interest.description}</p>
           <ul className="interest-text-bullets">
             {interest.descBullets.map((item, i) => (
               <li key={i} className="subTitle">

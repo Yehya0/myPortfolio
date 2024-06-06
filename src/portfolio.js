@@ -37,7 +37,7 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  title: "What I Do",
+  title: "Tech Stack",
   subTitle: "Versatile Full Stack Developer with a Passion for Innovation and Automation",
   skills: [
     emoji("⚡ Develop interactive front-end/user interfaces using HTML, CSS, and JavaScript"),
@@ -56,11 +56,11 @@ const skillsSection = {
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
     { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Microsoft Azure", fontAwesomeClassname: "fab fa-microsoft" },
+    { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" },
     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
     { skillName: "C#", fontAwesomeClassname: "fab fa-microsoft" }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Interests Section
@@ -69,15 +69,35 @@ const interestsInfo = {
   interests: [
     {
       title: "Mixed Martial Arts (MMA)",
-      imagePath: require("./assets/gifs/export_1717456704607.gif"), // Ensure you have an image in your assets folder
+      imagePath: require("./assets/gifs/giphy 2.webp"), // Ensure you have an image in your assets folder
       description: "I engage in regular MMA sparring sessions to improve my physical fitness and tactical skills.",
       descBullets: [
-        "Participate in weekly sparring sessions at a local gym.",
+        "Participate in volleyball tournaments.",
         "Focused training in Brazilian Jiu-Jitsu and Muay Thai.",
         "Competed in amateur MMA competitions."
       ]
     },
     // You can add more interests here
+    {
+      title: "Volleyball",
+      imagePath: require("./assets/gifs/giphy.webp"), // Ensure you have an image in your assets folder
+      description: "Playing volleyball helps me stay active and develop team collaboration skills.",
+      descBullets: [
+        "Participate in weekly volleyball tournaments at the mosque.",
+        "Organize and manage volleyball teams for community events.",
+        "Regularly practice serves, spikes, and defensive skills."
+      ]
+    },
+    {
+      title: "Coding Projects",
+      imagePath: require("./assets/gifs/giphy (2).webp"), // Ensure you have an image in your assets folder
+      description: "I love working on coding projects to enhance my programming skills and build useful applications.",
+      descBullets: [
+        "Develop web and mobile applications using modern technologies.",
+        "Contribute to open-source projects on GitHub.",
+        "Collaborate with other developers on innovative projects."
+      ]
+    }, 
   ]
 };
 
@@ -90,7 +110,6 @@ const educationInfo = {
       logo: require("./assets/images/UMich-logo.webp"),
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "September 2019 - April 2024",
-      desc: "GPA: 3.57. Relevant coursework includes Data Structures & Algorithms, Operating Systems, Web Technology, Database Management Systems, Software Architecture & Design Patterns, Software Engineering, Discrete Structures, Intro to Artificial Intelligence, Deep Learning, and Linear Algebra.",
       descBullets: [
         "Participated in various research projects and coding competitions.",
         "Developed multiple web and mobile applications as part of coursework.",
@@ -105,31 +124,44 @@ const educationInfo = {
 
 // Work experience section
 const workExperiences = {
-  display: true, // Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Software Engineer Intern",
       company: "Daimler Truck Financial Services",
       companylogo: require("./assets/images/daimlerLogo.jpeg"),
       date: "June 2023 – September 2023",
-      desc: "Enhanced strategic financial insights by developing a Java-based bot for automating monthly RPA performance reports for the CFO, reducing report generation time by 80%. Boosted document processing speed by implementing a Python and OpenAI's GPT-driven AI tool, cutting data extraction times by 50% and doubling bot performance efficiency. Streamlined project transitions from concept to production by collaborating on Process Definition and Technical Solution Design Documents, ensuring successful deployment of automated solutions."
+      descBullets: [
+        "Enhanced strategic financial insights by developing a Java-based bot for automating monthly RPA performance reports for the CFO, reducing report generation time by 80%.",
+        "Boosted document processing speed by implementing a Python and OpenAI's GPT-driven AI tool, cutting data extraction times by 50% and doubling bot performance efficiency.",
+        "Streamlined project transitions from concept to production by collaborating on Process Definition and Technical Solution Design Documents, ensuring successful deployment of automated solutions."
+      ]
     },
     {
       role: "Microsoft Developer Intern",
       company: "Total Solutions",
-      companylogo: require("./assets/images/totalSolutionsLogo.png"),
+      companylogo: require("./assets/images/1631432922611.jpeg"),
       date: "May 2023 – August 2023",
-      desc: "Ensured a seamless migration from on-premise network to SharePoint Online with zero data loss and a 20% reduction in migration time through rigorous quality assurance and testing. Developed innovative app modernization solutions and created sales blogs for Microsoft CoPilot and Microsoft Fabric, resulting in a 30% increase in client inquiries and a 15% boost in engagement. Improved a client's website by updating the front end with HTML and CSS to enhance design and user experience, and fixing backend issues with C# to resolve data handling errors, resulting in a 20% improvement in site performance."
+      descBullets: [
+        "Ensured a seamless migration from on-premise network to SharePoint Online with zero data loss and a 20% reduction in migration time through rigorous quality assurance and testing.",
+        "Developed innovative app modernization solutions and created sales blogs for Microsoft CoPilot and Microsoft Fabric, resulting in a 30% increase in client inquiries and a 15% boost in engagement.",
+        "Improved a client's website by updating the front end with HTML and CSS to enhance design and user experience, and fixing backend issues with C# to resolve data handling errors, resulting in a 20% improvement in site performance."
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "OST - Open Systems Technologies",
-      companylogo: require("./assets/images/vervintLogo.png"),
+      companylogo: require("./assets/images/open_systems_technologies_inc__logo.jpeg"),
       date: "October 2022 – May 2023",
-      desc: "Accomplished improved integration of customer data by developing automated data migration scripts, measured by a 30% reduction in data inconsistencies across systems. Achieved a 20% increase in processing speed by optimizing existing SQL queries in the ERP system, measured by benchmarking query execution times before and after optimization. Accomplished enhanced user satisfaction by redesigning the ERP system's dashboard based on user feedback, measured by a 25% increase in positive user reviews."
+      descBullets: [
+        "Accomplished improved integration of customer data by developing automated data migration scripts, measured by a 30% reduction in data inconsistencies across systems.",
+        "Achieved a 20% increase in processing speed by optimizing existing SQL queries in the ERP system, measured by benchmarking query execution times before and after optimization.",
+        "Accomplished enhanced user satisfaction by redesigning the ERP system's dashboard based on user feedback, measured by a 25% increase in positive user reviews."
+      ]
     }
   ]
 };
+
 
 // Open Source Section to View Your Github Pinned Projects
 const openSource = {
@@ -143,27 +175,39 @@ const bigProjects = {
   subtitle: "SOME OF THE PROJECTS I'VE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Project 1",
-      projectDesc: "I did x y and z",
+      image: require("./assets/gifs/tictactoe.gif"),
+      projectName: "AI-Powered-Tic-Tac-Toe",
+      projectDesc: "This project implements a Tic-Tac-Toe game with a graphical user interface using Python's Pygame library. The game includes an AI opponent that uses the Minimax algorithm to play optimally. The AI is designed to challenge players by making the best possible moves, providing a competitive and engaging experience",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/Yehya0/AI-Powered-Tic-Tac-Toe"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Project 2",
-      projectDesc: "I did x y and z",
+      image: require("./assets/images/maxresdefault.jpg"),
+      projectName: "Stock Predictor - LSTM",
+      projectDesc: "This project utilizes Long Short-Term Memory (LSTM) neural networks to predict stock prices. It leverages historical stock price data, including technical indicators like RSI and MACD, to forecast future prices. The main goal is to demonstrate the application of deep learning techniques in financial market analysis.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/Yehya0/StockPredictor-LSTM"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/under-construction-2629935_960_720.jpg"),
+      projectName: "Solana Scam Checker (UNDER CONSTRUCTION⚠️)",
+      projectDesc: "SolanaScanCheck is a stateless, user-friendly web tool designed to help cryptocurrency investors assess the legitimacy of tokens on the Solana blockchain. The website allows users to enter a cryptocurrency contract address and provides an analysis based on several indicators known to reflect the credibility and security of tokens. It will also offer educational resources on avoiding cryptocurrency scams and rug pulls.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/Yehya0/SolanaScamChecker"
         }
       ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };

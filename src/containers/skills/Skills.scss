@@ -21,27 +21,40 @@
 }
 
 .skills-heading {
-  font-size: 56px;
+  font-size: 80px; /* Increased font size */
   font-weight: 400;
 }
+
 .subTitle {
   color: $subTitle;
+}
+
+.skills-text {
+  font-size: 25px; /* Added class and increased font size for skills text */
+}
+
+.skills-text-subtitle {
+  font-size: 25px; /* Increased font size for subtitle text */
+  text-align: left;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 40px;
+    font-size: 60px; /* Adjusted font size for smaller screens */
+  }
+  .skills-text {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+  .skills-text-subtitle {
+    font-size: 18px; /* Adjusted font size for smaller screens */
   }
 }
+
 @media (max-width: 768px) {
   .skills-heading {
-    font-size: 30px;
-    text-align: center;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
+    font-size: 50px; /* Adjusted font size for smallest screens */
+    text-align: left;
   }
   .skills-main-div {
     flex-direction: column;
@@ -51,10 +64,10 @@
     margin: 20px;
   }
   .skills-text {
-    font-size: 16px;
+    font-size: 18px; /* Adjusted font size for smallest screens */
   }
   .skills-text-subtitle {
-    font-size: 16px;
+    font-size: 18px; /* Adjusted font size for smallest screens */
     text-align: center;
   }
   .skills-image-div {

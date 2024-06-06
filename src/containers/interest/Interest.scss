@@ -1,51 +1,50 @@
 .interests-heading {
-    font-size: 56px;
-    font-weight: 400;
-  }
-  
-  .interests-section {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    padding: 20px 0px;
-    margin: 0px auto;
-    margin-top: 2rem;
-  }
-  
-  .interests-section > * {
-    flex: 1;
-    margin-bottom: 30px;
-  }
-  
+  font-size: 65px; /* Increased font size */
+  font-weight: 400;
+}
+
+.interests-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 30px 0px; /* Increased padding */
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.interests-section > * {
+  flex: 1;
+  margin-bottom: 40px; /* Increased margin-bottom */
+}
+
+.interests-card-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px; /* Increased padding-top */
+}
+
+@media (max-width: 1380px) {
   .interests-card-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
+    padding-top: 10px; /* Adjusted padding-top */
   }
-  
-  @media (max-width: 1380px) {
-    .interests-card-container {
-      padding-top: 0px;
-    }
-    .interests-heading {
-      font-size: 40px;
-    }
-    .interests-text-subtitle {
-      font-size: 18px;
-      text-align: center;
-    }
+  .interests-heading {
+    font-size: 70px; /* Increased font size for smaller screens */
   }
-  
-  @media (max-width: 768px) {
-    .interests-card-container {
-      padding-top: 0px;
-    }
-    .interests-heading {
-      font-size: 30px;
-      text-align: center;
-    }
-    .interests-text-subtitle {
-      font-size: 16px;
-    }
+  .interests-text-subtitle {
+    font-size: 24px; /* Increased font size for smaller screens */
+    text-align: center;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .interests-card-container {
+    padding-top: 30px; /* Adjusted padding-top */
+  }
+  .interests-heading {
+    font-size: 50px; /* Increased font size for smallest screens */
+    text-align: center;
+  }
+  .interests-text-subtitle {
+    font-size: 20px; /* Increased font size for smallest screens */
+  }
+}
