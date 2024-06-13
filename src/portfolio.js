@@ -19,9 +19,9 @@ const illustration = {
 
 const greeting = {
   username: "Yehya Altamimi",
-  title: "Hi all, I'm Yehya",
+  title: "Hello, I'm Yehya",
   subTitle: emoji(
-    "A versatile Full Stack Software Developer 🚀 with experience in developing interactive web and mobile applications, automating processes using AI and machine learning, and optimizing backend systems. Skilled in technologies such as JavaScript, React, Node.js, Python, and cloud services like AWS and Microsoft Azure."
+    "I'm a dedicated software engineer based in Dearborn, MI, with a Bachelor's degree in Software Engineering from the University of Michigan 〽️. My diverse internship experiences include developing AI-based product recommendation systems at Spessle, creating automated financial reporting tools at Daimler Truck Financial Services, and enhancing website performance at Total Solutions. I have strong skills in Python, Java, JavaScript, SQL, and various cloud platforms and DevOps tools. I'm passionate about leveraging technology to solve real-world problems and continuously improving my technical expertise."
   ),
   resumeLink: "src/containers/greeting/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -37,7 +37,7 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  title: "Tech Stack",
+  title: "S",
   subTitle: "Versatile Full Stack Developer with a Passion for Innovation and Automation",
   skills: [
     emoji("⚡ Develop interactive front-end/user interfaces using HTML, CSS, and JavaScript"),
@@ -126,6 +126,17 @@ const educationInfo = {
 const workExperiences = {
   display: true,
   experience: [
+    {
+      role: "Machine Learning Intern",
+      company: "Spessle",
+      companylogo: require("./assets/images/SpessleLogo.jpeg"),
+      date: "September 2023 – April 2024",
+      descBullets: [
+        "Developed Aimee, an AI tool that boosted product recommendation accuracy by 20% for Spessle clients by analyzing customer behavior using Python, PostgreSQL, and natural language processing.",
+        "Enhanced search efficiency by 30% on client e-commerce platforms through the integration of Milvus, PyTorch, and BERT, enabling more accurate product searches based on user queries.",
+        "Improved user satisfaction by 25% by rigorously testing AI models to ensure the accuracy and relevance of product recommendations, thereby increasing client engagement and transaction success rates."
+      ]
+    },
     {
       role: "Software Engineer Intern",
       company: "Daimler Truck Financial Services",
@@ -226,7 +237,7 @@ const contactInfo = {
   email_address: "altamimiyehya3@gmail.com"
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

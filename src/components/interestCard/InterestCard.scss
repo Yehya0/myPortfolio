@@ -19,7 +19,7 @@
 .interest-card-content {
   display: flex;
   align-items: center;
-  justify-content: start; /* Aligns items to the start of the flex container */
+  justify-content: flex-start; /* Aligns items to the start of the flex container */
   width: 100%;
 }
 

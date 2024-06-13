@@ -1,49 +1,51 @@
+/* Change colors in this file to style to your needs on a global level. 
+Certain colors are used for different and multiply types of elements. 
+For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #3a041d; // Pink
-$buttonHover: #BD2D6D; // Darker Pink
-$topButtonHover: #9e004a; // Pink
+$buttonColor: #55198b;
+$buttonHover: #8c43ce;
+$topButtonHover: #000;
 
 // text colors light theme
-$titleColor: #A4B3B6; // Light Blue-Gray
-$textColor: #f5fdff; // Light Blue-Gray
-$subTitle: #E98074; // Soft Red
-$cardSubtitle: #E98074; // Soft Red
-$talkCardSubTitle: #E98074; // Soft Red
-$blogCardTitleColor: #A4B3B6; // Light Blue-Gray
+$titleColor: #000000;
+$textColor: #000000;
+$subTitle: #868e96;
+$cardSubtitle: #666666;
+$talkCardSubTitle: #7f8287;
+$blogCardTitleColor: #262626;
 
 // text color dark theme
-$textColorDark: #A4B3B6; // Light Blue-Gray
+$textColorDark: #ffffff;
 
 // toggle switch colors
-$toggleCheck: #D83F87; // Pink
-$toggleSwitchSliderBG: #2A1B3D; // Dark Purple
+$toggleCheck: #2196f3;
+$toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #D83F87; // Pink
-$githubRepoCardColor: rgb(68, 49, 141);
+$githubRepoCardLanguageColorBG: #0000ff;
+$githubRepoCardColor: rgb(88, 96, 105);
 $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: #D83F87; // Pink
-$githubProfileCardLocationTS: #E98074; // Soft Red
-$githubProfileCardBorder: #D83F87; // Pink
+$githubRepoCardRepoNameColor: rgb(36, 41, 46);
+$githubProfileCardLocationTS: #ffebcd;
+$githubProfileCardBorder: #6c63ff;
 
 // light background colors
-$lightBackground1: #44318D; // Purple
-$lightBackground2: #44318D; // Purple
-$lightBackground3: #2A1B3D; // Dark Purple
-$blogCardContainerColor: #2A1B3D; // Dark Purple
-
+$lightBackground1: #fff;
+$lightBackground2: rgb(255, 255, 255);
+$lightBackground3: #f5f2f4;
+$blogCardContainerColor: #586069;
 // dark background colors
-$darkBackground: #2A1B3D; // Dark Purple
+$darkBackground: #171c28;
 
 // light theme box shadows
-$lightBoxShadowDark: rgba(216, 63, 135, 0.2); // Pink shadow
-$lightBoxShadow: rgba(216, 63, 135, 0.1); // Pink shadow
-$lightBoxShadowDarker: rgba(216, 63, 135, 0.3); // Pink shadow
+$lightBoxShadowDark: rgba(0, 0, 0, 0.2);
+$lightBoxShadow: rgba(0, 0, 0, 0.1);
+$lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
 
 // dark theme box shadows
-$darkBoxShadow: #D83F87; // Pink shadow
-$darkBoxShadow2: #D83F87; // Pink shadow
+$darkBoxShadow: #d9dbdf;
+$darkBoxShadow2: #ffffff;
 
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
@@ -57,23 +59,23 @@ $experienceCardBannerLG: linear-gradient(
 
 // borders
 $progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(216, 63, 135, 0.397); // Pink border
-$educationCardBorder: #D83F87; // Pink border
+$lightBorder1: rgba(211, 211, 211, 0.397);
+$educationCardBorder: #a9a7f9;
 
 // hovers
-$achievementCertificateCardHoverDark: rgba(216, 63, 135, 0.2); // Pink hover
-$blogCardHoverSmallColor: rgba(216, 63, 135, 0.8); // Pink hover
-$headerHoverBG: #D83F87; // Pink hover
-$contactDetailHoverTS: #D83F87; // Pink hover
+$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
+$headerHoverBG: #f4f4f4;
+$contactDetailHoverTS: #b5b5b5;
 
 // misc backgrounds
-$progressBarSpanBG: #D83F87; // Pink
-$iconBackground: #44318D; // Purple
-$appHeaderBG: #2A1B3D; // Dark Purple
+$progressBarSpanBG: #aaa5ff;
+$iconBackground: #333;
+$appHeaderBG: #282c34;
 
 // misc colors
-$skillsColor: #D83F87; // Pink
-$appLink: #D83F87; // Pink
+$skillsColor: #645beb;
+$appLink: #09d3ac;
 
 // social media icons
 $faceBook: #3b5998;
@@ -86,8 +88,3 @@ $medium: #000;
 $stackoverflow: #f48024;
 $instagram: #c13584;
 $kaggle: #20beff;
-
-
-
-
-
