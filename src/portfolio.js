@@ -23,7 +23,7 @@ const greeting = {
   subTitle: emoji(
     "I'm a dedicated software engineer based in Dearborn, MI, with a Bachelor's degree in Software Engineering from the University of Michigan 〽️. My diverse internship experiences include developing AI-based product recommendation systems at Spessle, creating automated financial reporting tools at Daimler Truck Financial Services, and enhancing website performance at Total Solutions. I have strong skills in Python, Java, JavaScript, SQL, and various cloud platforms and DevOps tools. I'm passionate about leveraging technology to solve real-world problems and continuously improving my technical expertise."
   ),
-  resumeLink: "src/containers/greeting/resume.pdf", // Set to empty to hide the button
+  resumeLink: "src/greeting/yehya_altamimi_resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,16 +37,18 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  title: "S",
+  title: "Skills",
   subTitle: "Versatile Full Stack Developer with a Passion for Innovation and Automation",
   skills: [
     emoji("⚡ Develop interactive front-end/user interfaces using HTML, CSS, and JavaScript"),
     emoji("⚡ Implement cloud solutions and integrate third-party services like AWS and Microsoft Azure"),
     emoji("⚡ Automate processes using AI and machine learning tools such as Python and OpenAI's GPT"),
     emoji("⚡ Conduct quality assurance and testing to ensure seamless migrations and data integrity"),
-    emoji("⚡ Optimize backend systems and improve data handling efficiency using SQL and C#")
+    emoji("⚡ Optimize backend systems and improve data handling efficiency using SQL and C#"),
+    emoji("⚡ Build machine learning models and enhance AI capabilities using PyTorch, TensorFlow, and BERT"),
+    emoji("⚡ Design and develop efficient data architectures with PostgreSQL, Milvus, and MongoDB"),
+    emoji("⚡ Create automated workflows and interactive dashboards with Power Automate and Power BI")
   ],
-  
   softwareSkills: [
     { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
     { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
@@ -115,7 +117,6 @@ const educationInfo = {
         "Developed multiple web and mobile applications as part of coursework.",
         "Engaged in collaborative team projects to build software solutions.",
         "Presented findings and projects in technical presentations.",
-        "Senior Design Project: Developed Aimee, a chatbot for an e-commerce startup, focusing on product recommendations and search capabilities using Python and natural language processing."
       ]
     }
   ]
